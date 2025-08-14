@@ -38,3 +38,8 @@ Overview of Steps:
 8. **Drift Detection and Retraining**
    - Implement a drift detection mechanism (using statistical tests on predictions or input data).
    - Set up a retraining pipeline triggered by drift or scheduled runs.
+
+## About Dataset
+I use a Kaggle dataset that contains transactions made by credit cards in September 2013 by European cardholders but contains only numerical input variables which are the result of a PCA transformation (due to confidentiality issues doesn't provide the original features).
+For more detail visit: 
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
